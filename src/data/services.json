@@ -1,0 +1,39 @@
+[
+  {
+    "id": "1",
+    "name": "Servicio Básico - Essential Ride",
+    "description": "Este plan ofrece un mantenimiento esencial para motociclistas que buscan un servicio mensual accesible y eficiente. Es ideal para quienes desean mantener su moto en buenas condiciones sin gastar demasiado.",
+    "price": 19.90,
+    "features": [
+      "Cambio de aceite",
+      "Revisión de frenos",
+      "Lubricación de cadenas"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Plan regular - Full Performance",
+    "description": "Pensado para quienes usan su moto con mayor frecuencia y necesitan un mantenimiento más detallado. Este plan mejora el rendimiento y la seguridad de la moto con servicios adicionales.",
+    "price": 39.90,
+    "features": [
+      "Todo lo del Plan Básico",
+      "Ajuste de frenos y suspensión",
+      "Limpieza y ajuste de carburador/inyección",
+      "Revisión de presión y desgaste de llantas"
+    ],
+    "isPopular": true
+  },
+  {
+    "id": "3",
+    "name": "Plan Premium - Elite Protection",
+    "description": "El servicio más completo, ideal para quienes desean el mejor cuidado para su moto. Garantiza un rendimiento óptimo y un acabado impecable con mantenimiento avanzado.",
+    "price": 79.90,
+    "features": [
+      "Todo lo del Plan Regular",
+      "Balanceo y alineación de ruedas",
+      "Diagnóstico computarizado",
+      "Limpieza profunda y encerado",
+      "Descuento especial en repuestos"
+    ]
+  }
+]
