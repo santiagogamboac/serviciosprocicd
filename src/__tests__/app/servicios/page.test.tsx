@@ -6,7 +6,6 @@ describe("Servicios Page", () => {
     it("renders the ServiciosGestion component", () => {
         //const { getByTestId } =
         render(<ServiciosPage />)
-
         expect(screen.getByText("Nuestros Servicios")).toBeInTheDocument()
 
     })

@@ -44,15 +44,15 @@ export default function ContactPage() {
           success: true,
           message: "Mesaje enviado correctamente. Nos pondremos en contacto contigo pronto.",
         })
-          //Limpiar el formulario después de enviar el mensaje
-      setFormData({
-        name: "",
-        email: "",
-        subject: "",
-        message: "",
-      })
-    }
-      else{
+        //Limpiar el formulario después de enviar el mensaje
+        setFormData({
+          name: "",
+          email: "",
+          subject: "",
+          message: "",
+        })
+      }
+      else {
         //Alerta de error
         setSubmitStatus({
           success: false,
@@ -60,7 +60,7 @@ export default function ContactPage() {
         })
       }
     } catch (error) {
-        console.log(error)
+      console.log(error)
       setSubmitStatus({
         success: false,
         message: "Hubo un error al enviar tu mensaje. Por favor, intenta nuevamente.",
@@ -125,9 +125,8 @@ export default function ContactPage() {
 
             {submitStatus.message && (
               <div
-                className={`p-4 mb-6 rounded-md ${
-                  submitStatus.success ? "bg-green-50 text-green-700" : "bg-red-50 text-red-700"
-                }`}
+                className={`p-4 mb-6 rounded-md ${submitStatus.success ? "bg-green-50 text-green-700" : "bg-red-50 text-red-700"
+                  }`}
               >
                 {submitStatus.message}
               </div>
